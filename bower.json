@@ -1,0 +1,27 @@
+{
+  "name": "react-annotation",
+  "version": "0.1.0",
+  "homepage": "https://github.com/manishgs/react-annotation",
+  "authors": [
+    "Manish Gopal Singh <manish.singh@yipl.com.np>"
+  ],
+  "description": "react annotation example",
+  "keywords": [
+    "react",
+    "annotation"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "jquery": "~2.1.4",
+    "jqueryui": "~1.11.4"
+  }
+}

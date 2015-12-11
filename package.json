@@ -1,0 +1,23 @@
+{
+  "name": "react-annotation",
+  "version": "0.1.0",
+  "description": "React annotation example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishgs/react-annotation.git"
+  },
+  "keywords": [
+    "react",
+    "annotation"
+  ],
+  "author": "Manish Gopal Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manishgs/react-annotation/issues"
+  },
+  "homepage": "https://github.com/manishgs/react-annotation#readme"
+}
