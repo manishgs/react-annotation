@@ -7,7 +7,7 @@ var key_interval =0;
     // If absolute URL from the remote server is provided, configure the CORS
     // header on that server.
     //
-    var url = '../src/pdf/sample.pdf';
+    var url = '../dest/pdf/sample.pdf';
 
 
     //
