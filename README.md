@@ -7,9 +7,9 @@
  * Install bower components `bower install`
  
 # Run 
- * Run php server on root directory `php -S localhost:8000`
- * Visit `http://localhost:8000/web`
- * Build the project run `gulp`
+ * Run server: `gulp serve`
+ * Visit: `http://localhost:8001`
+ * Build the project run: `gulp`
  * Watch for changes: `gulp watch`
   
   

@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/manishgs/react-annotation/issues"
   },
-  "homepage": "https://github.com/manishgs/react-annotation#readme"
+  "homepage": "https://github.com/manishgs/react-annotation#readme",
+  "devDependencies": {
+    "gulp-connect": "^2.2.0",
+    "gulp-webserver": "^0.9.1"
+  }
 }

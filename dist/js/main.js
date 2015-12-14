@@ -19129,25 +19129,17 @@ var TabView = React.createClass({displayName: "TabView",
     render: function () {
         return (
             React.createElement("div", {className: "col-md-9"}, 
-                React.createElement("ul", null, 
-                    React.createElement("li", null, 
-                        React.createElement("a", {href: "#", onClick: this.showText}, "Text")
-                    ), 
-                    React.createElement("li", null, 
-                        React.createElement("a", {href: "#", onClick: this.showPdf}, "PDF")
-                    )
+                React.createElement("div", {className: "btn-group", role: "group"}, 
+                    React.createElement("button", {type: "button", onClick: this.showText, className: "btn btn-default"}, "Text"), 
+                    React.createElement("button", {type: "button", onClick: this.showPdf, className: "btn btn-default"}, "PDF")
                 ), 
-
-
-            (this.state.showTab == 'text') ? React.createElement(TextView, null) : null, 
-            (this.state.showTab == 'pdf') ? React.createElement(PDFView, null) : null
-
+                (this.state.showTab == 'text') ? React.createElement(TextView, null) : null, 
+                (this.state.showTab == 'pdf') ? React.createElement(PDFView, null) : null
             )
         )
     }
 
 });
-
 
 module.exports = TabView;
 

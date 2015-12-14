@@ -15,24 +15,16 @@ var TabView = React.createClass({
     render: function () {
         return (
             <div className="col-md-9">
-                <ul>
-                    <li>
-                        <a href="#" onClick={this.showText}>Text</a>
-                    </li>
-                    <li>
-                        <a href="#" onClick={this.showPdf}>PDF</a>
-                    </li>
-                </ul>
-
-
-            {(this.state.showTab == 'text') ? <TextView /> : null }
-            {(this.state.showTab == 'pdf') ? <PDFView /> : null }
-
+                <div className="btn-group" role="group" >
+                    <button type="button" onClick={this.showText} className="btn btn-default">Text</button>
+                    <button type="button" onClick={this.showPdf} className="btn btn-default">PDF</button>
+                </div>
+                {(this.state.showTab == 'text') ? <TextView /> : null }
+                {(this.state.showTab == 'pdf') ? <PDFView /> : null }
             </div>
         )
     }
 
 });
-
 
 module.exports = TabView;
